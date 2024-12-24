@@ -6,7 +6,7 @@
     font-weight: bolder;
     text-align: center;
     font-size: 1.05em;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.5s ease-in-out;
     
 }
 
@@ -27,8 +27,7 @@ input{
     padding: 5px;
     color: #e8e8e8;
     border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.986);
     font-size: 1.4em;
 }
 div#Resultado{
@@ -40,6 +39,7 @@ div#Resultado{
     margin: 20px;
     width: 150px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    font-size: 1.6em;
 }
 #calculo{
     padding: 15px;
@@ -48,24 +48,15 @@ div#Resultado{
     border-radius: 40px;
 }
 label{
-   border: 2px solid black;
+   border: 2px solid #212121;
    border-radius: 20px; 
    padding: 7px;
    margin: 5px;
+   color: #212121;
 }
 #calculo:active{
     transform: translateY(8px);
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.829);
-    border: 2px solid rgb(255, 255, 255);
-}
-h1{
-    background-color: #212121;
-    color: #e8e8e8;
-    padding: 20px;
-    border-radius: 20px;
-    margin: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    font-size: 2em;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0);
 }
 .no-spinner::-webkit-inner-spin-button{
     -webkit-appearance: none;
@@ -75,4 +66,34 @@ mark{
     background-color: white;
     padding: 1px;
     border-radius: 3px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 60px;
+    margin: 15px;
+    border: none;
+    display: flex;
+    align-items: center;
+    background-color: #e8e8e8;
+    box-shadow: 0px 0px 10px white;
+    justify-content: flex-start;
+}
+#header{
+    background-color: #212121;
+    color: #e8e8e8;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    font-size: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#bola{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(114, 202, 114);
+    border-radius: 50%;
 }

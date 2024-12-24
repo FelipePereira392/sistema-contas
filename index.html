@@ -5,67 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contas</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <h1>Somando Valores</h1>
+
+    <div id="header">
+        <h1 id="titulo">Somando Valores</h1>
+        <button id="modo-noturno"><div id="bola"></div></button>
+    </div>
     <div>
-        <label for="i15">15: </label>
+        <label for="i15" id="a">15: </label>
         <input type="number" name="15" id="i15" value="0" min="0" class="no-spinner">
     </div>
 <br>
     <div>
-        <label for="i30">30: </label>
+        <label for="i30" id="b">30: </label>
         <input type="number" name="30" id="i30" value="0" min="0" class="no-spinner">
     </div>
 <br>    
     <div>
-        <label for="i35">35: </label>
+        <label for="i35" id="c">35: </label>
         <input type="number" name="35" id="i35" value="0" min="0" class="no-spinner">
     </div>
 <br>    
     <div>
-        <label for="i38">38: </label>
+        <label for="i38" id="d">38: </label>
         <input type="number" name="38" id="i38" value="0" min="0" class="no-spinner">
     </div>
 <br>    
     <div>
-        <label for="i40">40: </label>
+        <label for="i40" id="e">40: </label>
         <input type="number" name="40" id="i40" value="0" min="0" class="no-spinner">
     </div>
 <br>    
     <div>
-        <label for="i43">43: </label>
+        <label for="i43" id="f">43: </label>
         <input type="number" name="43" id="i43" value="0" min="0" class="no-spinner">
     </div>
 <br>    
     <div>
-        <label for="i45">45: </label>
+        <label for="i45" id="g">45: </label>
         <input type="number" name="45" id="i45" value="0" min="0" class="no-spinner">
     </div>
 <br>    
     <div>
-        <label for="i70">70: </label>
+        <label for="i70" id="h">70: </label>
         <input type="number" name="70" id="i70" value="0" min="0" class="no-spinner">
     </div>
 <br>    
     <div>
-        <label for="i73">73: </label>
+        <label for="i73" id="i">73: </label>
         <input type="number" name="73" id="i73" value="0" min="0" class="no-spinner">
     </div>
 <br>    
     <div>
-        <label for="i80">80: </label>
+        <label for="i80" id="j">80: </label>
         <input type="number" name="80" id="i80" value="0" min="0" class="no-spinner">
     </div>
 <br>    
     <div>
-        <label for="isobra">Resto: </label>
+        <label for="isobra" id="k">Resto: </label>
         <input type="number" name="sobra" id="isobra" value="0" min="0" class="no-spinner">
     </div>
 <br>    
     <div>
         <input type="button" value="Calcular" id="calculo">
-        <div id="Resultado">A Soma deu: <mark>0</mark></div>
+        <div id="Resultado">= 0</div>
     </div>
     
 </body>
