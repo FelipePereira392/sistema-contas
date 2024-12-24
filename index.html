@@ -6,73 +6,74 @@
     <title>Contas</title>
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
 
     <div id="header">
-        <h1 id="titulo">Somando Valores</h1>
+        <h1 id="titulo">Somando👍</h1>
         <button id="modo-noturno"><div id="bola"></div></button>
     </div>
     <div>
         <label for="i15" id="a">15: </label>
-        <input type="number" name="15" id="i15" value="0" min="0" class="no-spinner">
+        <input type="number" name="15" id="i15" placeholder="0" min="0" class="no-spinner">
     </div>
 <br>
     <div>
         <label for="i30" id="b">30: </label>
-        <input type="number" name="30" id="i30" value="0" min="0" class="no-spinner">
+        <input type="number" name="30" id="i30" placeholder="0" min="0" class="no-spinner">
     </div>
 <br>    
     <div>
         <label for="i35" id="c">35: </label>
-        <input type="number" name="35" id="i35" value="0" min="0" class="no-spinner">
+        <input type="number" name="35" id="i35" placeholder="0" min="0" class="no-spinner">
     </div>
 <br>    
     <div>
         <label for="i38" id="d">38: </label>
-        <input type="number" name="38" id="i38" value="0" min="0" class="no-spinner">
+        <input type="number" name="38" id="i38" placeholder="0" min="0" class="no-spinner">
     </div>
 <br>    
     <div>
         <label for="i40" id="e">40: </label>
-        <input type="number" name="40" id="i40" value="0" min="0" class="no-spinner">
+        <input type="number" name="40" id="i40" placeholder="0" min="0" class="no-spinner">
     </div>
 <br>    
     <div>
         <label for="i43" id="f">43: </label>
-        <input type="number" name="43" id="i43" value="0" min="0" class="no-spinner">
+        <input type="number" name="43" id="i43" placeholder="0" min="0" class="no-spinner">
     </div>
 <br>    
     <div>
         <label for="i45" id="g">45: </label>
-        <input type="number" name="45" id="i45" value="0" min="0" class="no-spinner">
+        <input type="number" name="45" id="i45" placeholder="0" min="0" class="no-spinner">
     </div>
 <br>    
     <div>
         <label for="i70" id="h">70: </label>
-        <input type="number" name="70" id="i70" value="0" min="0" class="no-spinner">
+        <input type="number" name="70" id="i70" placeholder="0" min="0" class="no-spinner">
     </div>
 <br>    
     <div>
         <label for="i73" id="i">73: </label>
-        <input type="number" name="73" id="i73" value="0" min="0" class="no-spinner">
+        <input type="number" name="73" id="i73" placeholder="0" min="0" class="no-spinner">
     </div>
 <br>    
     <div>
         <label for="i80" id="j">80: </label>
-        <input type="number" name="80" id="i80" value="0" min="0" class="no-spinner">
+        <input type="number" name="80" id="i80" placeholder="0" min="0" class="no-spinner">
     </div>
 <br>    
     <div>
         <label for="isobra" id="k">Resto: </label>
-        <input type="number" name="sobra" id="isobra" value="0" min="0" class="no-spinner">
+        <input type="number" name="sobra" id="isobra" placeholder="0" min="0" class="no-spinner">
     </div>
 <br>    
-    <div>
-        <input type="button" value="Calcular" id="calculo">
-        <div id="Resultado">= 0</div>
+    <div id="calculo">
+        <input type="button" value="Calcular" id="botao-calculo">
+        <i class="material-icons" id="menu" onclick="clickMenu()">calculate</i>
     </div>
-    
+    <div id="Resultado">= 0</div>
 </body>
     <script src="script.js" defer></script>
 </html>

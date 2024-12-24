@@ -46,6 +46,14 @@ div#Resultado{
     width: 150px;
     transition: all 0.1s ease-in-out;
     border-radius: 40px;
+    display: flex;
+    background-color: #212121;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.986);
+}
+#botao-calculo{
+    box-shadow: none;
 }
 label{
    border: 2px solid #212121;
@@ -96,4 +104,9 @@ button{
     width: 50px;
     background-color: rgb(114, 202, 114);
     border-radius: 50%;
+    background: #e8e8e8 url('sun.png') center center no-repeat;
+    background-size: cover;
+}
+.material-icons{
+    color: #e8e8e8;
 }

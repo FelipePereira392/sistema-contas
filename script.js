@@ -41,6 +41,7 @@ function soma(){
 }
 var botao = document.querySelector('#modo-noturno')
 var botaoDentro = document.querySelector('#bola')
+var bola = document.querySelector('#bola')
 var label = document.querySelector(".label")
 botao.addEventListener('click', clicar)
 var header = document.querySelector('#header')
@@ -63,7 +64,7 @@ function clicar(){
                 botao.style.backgroundColor = '#212121'
                 botao.style.boxShadow = "0px 0px 20px black"
                 header.style.boxShadow = "0px 0px 50px rgb(0, 0, 0)"
-
+                bola.style.backgroundImage = "url('moon.png')"
 
                 a.style.borderColor = ('#e8e8e8')
                 a.style.color = ('#e8e8e8')
@@ -95,7 +96,7 @@ function clicar(){
                 botao.style.backgroundColor = '#e8e8e8'
                 botao.style.boxShadow = "0px 0px 10px white"
                 header.style.boxShadow = "0px 0px 10px rgba(0, 0, 0, 0.5)"
-
+                bola.style.backgroundImage = "url('sun.png')"
 
                 a.style.borderColor = ('#212121')
                 a.style.color = ('#212121')
